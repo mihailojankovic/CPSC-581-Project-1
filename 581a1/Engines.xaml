@@ -1,0 +1,39 @@
+﻿<Window x:Class="_581a1.Engines"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_581a1"
+        mc:Ignorable="d"
+        Title="Engines" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
+        <Label Content="Pick an engine type" HorizontalAlignment="Left" Margin="222,27,0,0" VerticalAlignment="Top" Height="75" Width="358" FontSize="40"/>
+        <Image Margin="60,113,604.333,227.667" Source="i3.png" Stretch="Fill" AutomationProperties.Name="i3image"/>
+        <Image Margin="239,113,434.333,227.667" Source="i4.png" Stretch="Fill" AutomationProperties.Name="i4image"/>
+        <Image Margin="422,113,257.333,227.667" Source="i5.png" Stretch="Fill" RenderTransformOrigin="0.5,0.004" AutomationProperties.Name="i5image"/>
+        <Image Margin="602,113,61.333,227.667" Source="i6.png" Stretch="Fill" AutomationProperties.Name="i6image"/>
+        <Button Content="" Margin="81,99,0,0" VerticalAlignment="Top" Width="86" Click="i3Button_Click" AutomationProperties.Name="i3button" Background="#00DDDDDD" Height="116" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+        <Label Content="Straight 3" HorizontalAlignment="Left" Margin="81,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
+        <Label Content="Straight 4" HorizontalAlignment="Left" Margin="257,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
+        <Label Content="Straight 5" HorizontalAlignment="Left" Margin="437,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
+        <Label Content="Straight 6" HorizontalAlignment="Left" Margin="626,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="239,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i4Button_Click" AutomationProperties.Name="i4button"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="422,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i5Button_Click" AutomationProperties.Name="i5button"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="612,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i6Button_Click" AutomationProperties.Name="i6button"/>
+        <Image Margin="60,237,603.333,72.667" Source="v6.png" Stretch="Fill"/>
+        <Label Content="V6" HorizontalAlignment="Left" Margin="108,348,0,0" VerticalAlignment="Top" Width="36" FontSize="18"/>
+        <Image Margin="239,256,448.333,72.667" Source="v8.png" Stretch="Fill"/>
+        <Label Content="V8" HorizontalAlignment="Left" Margin="273,348,0,0" VerticalAlignment="Top" Width="36" FontSize="18"/>
+        <Image Margin="396,256,238.333,72.667" Source="v10.png" Stretch="Fill"/>
+        <Label Content="V10" HorizontalAlignment="Left" Margin="452,348,0,0" VerticalAlignment="Top" Width="44" FontSize="18"/>
+        <Image Margin="595,256,50.333,72.667" Source="v12.png" Stretch="Fill"/>
+        <Label Content="V12" HorizontalAlignment="Left" Margin="644,348,0,0" VerticalAlignment="Top" Width="44" FontSize="18"/>
+        <Button Content="" Margin="70,256,0,0" VerticalAlignment="Top" Width="105" Click="v6Button_Click" AutomationProperties.Name="v6button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+        <Button Content="" Margin="238,256,0,0" VerticalAlignment="Top" Width="105" Click="v8Button_Click" AutomationProperties.Name="v8button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+        <Button Content="" Margin="409,256,0,0" VerticalAlignment="Top" Width="139" Click="v10Button_Click" AutomationProperties.Name="v10button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+        <Button Content="" Margin="612,256,0,0" VerticalAlignment="Top" Width="120" Click="v12Button_Click" AutomationProperties.Name="v12button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+
+
+    </Grid>
+</Window>

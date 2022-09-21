@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
+        <Label Content="Engine V" HorizontalAlignment="Left" Margin="293,92,0,0" VerticalAlignment="Top" Height="79" Width="209" FontSize="50"/>
+        <Button Content="Click here to begin" HorizontalAlignment="Left" Margin="293,266,0,0" VerticalAlignment="Top" Width="209" RenderTransformOrigin="0.062,0.024" Height="29" Background="Black" BorderBrush="Black" Foreground="White" FontSize="16" Click="Button_Click"/>
+
     </Grid>
 </Window>
