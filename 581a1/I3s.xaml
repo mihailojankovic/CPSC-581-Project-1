@@ -1,0 +1,18 @@
+﻿<Window x:Class="_581a1.I3s"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_581a1"
+        mc:Ignorable="d"
+        Title="I3s" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
+        <Label Content="Straight 3s" HorizontalAlignment="Left" Margin="274,35,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Image Margin="10,129,515.333,128.667" Source="yarisgr.png" Stretch="Fill"/>
+        <Label Content="Toyota Yaris GR" HorizontalAlignment="Left" Margin="52,292,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 1618cc" HorizontalAlignment="Left" Margin="35,334,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Button" Click="Yaris_Click" HorizontalAlignment="Left" Margin="274,243,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

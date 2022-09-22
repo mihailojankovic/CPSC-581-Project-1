@@ -26,7 +26,9 @@ namespace _581a1
 
         private void i3Button_Click(object sender, RoutedEventArgs e)
         {
-
+            I3s i3s = new I3s();
+            this.Close();
+            i3s.Show();
         }
 
         private void i4Button_Click(object sender, RoutedEventArgs e)

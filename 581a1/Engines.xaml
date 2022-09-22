@@ -7,18 +7,18 @@
         mc:Ignorable="d"
         Title="Engines" Height="450" Width="800">
     <Grid>
-        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
+        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333" Panel.ZIndex="-5"/>
         <Label Content="Pick an engine type" HorizontalAlignment="Left" Margin="222,27,0,0" VerticalAlignment="Top" Height="75" Width="358" FontSize="40"/>
         <Image Margin="60,113,604.333,227.667" Source="i3.png" Stretch="Fill" AutomationProperties.Name="i3image"/>
         <Image Margin="239,113,434.333,227.667" Source="i4.png" Stretch="Fill" AutomationProperties.Name="i4image"/>
         <Image Margin="422,113,257.333,227.667" Source="i5.png" Stretch="Fill" RenderTransformOrigin="0.5,0.004" AutomationProperties.Name="i5image"/>
         <Image Margin="602,113,61.333,227.667" Source="i6.png" Stretch="Fill" AutomationProperties.Name="i6image"/>
-        <Button Content="" Margin="81,99,0,0" VerticalAlignment="Top" Width="86" Click="i3Button_Click" AutomationProperties.Name="i3button" Background="#00DDDDDD" Height="116" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
-        <Label Content="Straight 3" HorizontalAlignment="Left" Margin="81,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
+        <Button Content="" Margin="81,99,0,0" VerticalAlignment="Top" Width="86" Click="i3Button_Click" AutomationProperties.Name="i3button" Background="#00DDDDDD" Height="133" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16" Opacity="0"/>
+        <Label Content="Straight 3" HorizontalAlignment="Left" Margin="81,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18" Panel.ZIndex="-1"/>
         <Label Content="Straight 4" HorizontalAlignment="Left" Margin="257,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
         <Label Content="Straight 5" HorizontalAlignment="Left" Margin="437,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
         <Label Content="Straight 6" HorizontalAlignment="Left" Margin="626,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="239,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i4Button_Click" AutomationProperties.Name="i4button"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="239,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i4Button_Click" AutomationProperties.Name="i4button" Opacity="0"/>
         <Button Content="" HorizontalAlignment="Left" Margin="422,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i5Button_Click" AutomationProperties.Name="i5button"/>
         <Button Content="" HorizontalAlignment="Left" Margin="612,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i6Button_Click" AutomationProperties.Name="i6button"/>
         <Image Margin="60,237,603.333,72.667" Source="v6.png" Stretch="Fill"/>
