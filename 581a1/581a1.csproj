@@ -55,11 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="V10s.xaml.cs">
+      <DependentUpon>V10s.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="V12s.xaml.cs">
+      <DependentUpon>V12s.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="V6s.xaml.cs">
+      <DependentUpon>V6s.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="V8s.xaml.cs">
+      <DependentUpon>V8s.xaml</DependentUpon>
+    </Compile>
     <Page Include="Engines.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="I3s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="I4s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="I5s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="I6s.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,10 +101,35 @@
     <Compile Include="I3s.xaml.cs">
       <DependentUpon>I3s.xaml</DependentUpon>
     </Compile>
+    <Compile Include="I4s.xaml.cs">
+      <DependentUpon>I4s.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="I5s.xaml.cs">
+      <DependentUpon>I5s.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="I6s.xaml.cs">
+      <DependentUpon>I6s.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="V10s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="V12s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="V6s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="V8s.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -137,6 +186,58 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="sound\suprasound.wav" />
+    <None Include="sound\yarisgrsound.wav" />
+    <None Include="sound\wrxsound.wav" />
+    <None Include="sound\tvrsound.wav" />
+    <None Include="sound\stratossound.wav" />
+    <None Include="sound\s2ksound.wav" />
+    <None Include="sound\s1sound.wav" />
+    <None Include="sound\rs3sound.wav" />
+    <None Include="sound\r34sound.wav" />
+    <None Include="sound\r8sound.wav" />
+    <None Include="sound\paganisound.wav" />
+    <Resource Include="tvr.png" />
+    <Resource Include="supra.png" />
+    <Resource Include="wrxsti.png" />
+    <Resource Include="fiestast.png" />
+    <Resource Include="saab.png" />
+    <Resource Include="Image1.png" />
+    <Resource Include="Image2.png" />
+    <Resource Include="s2k.png" />
+    <Resource Include="Image3.png" />
+    <Resource Include="m3.png" />
+    <Resource Include="Image4.png" />
+    <Resource Include="e30.png" />
+    <None Include="Sounds\saabsound.wav" />
+    <Resource Include="Image5.png" />
+    <Resource Include="rs3.png" />
+    <Resource Include="s1.png" />
+    <Resource Include="fiat.png" />
+    <Resource Include="r34.png" />
+    <Resource Include="gtr.png" />
+    <Resource Include="Lancia_Stratos_Group_4_1972_1000_0001.png" />
+    <Resource Include="alfa.png" />
+    <Resource Include="458.png" />
+    <Resource Include="jag.png" />
+    <Resource Include="demon.png" />
+    <Resource Include="lfa.png" />
+    <Resource Include="carreragt.png" />
+    <Resource Include="r8.png" />
+    <Resource Include="812.png" />
+    <Resource Include="huayra.png" />
+    <Resource Include="lambo.png" />
+    <None Include="sound\carrerasound.wav" />
+    <None Include="sound\demonsound.wav" />
+    <None Include="sound\e30sound.wav" />
+    <None Include="sound\f458sound.wav" />
+    <None Include="sound\f812sound.wav" />
+    <None Include="sound\fiestastsound.wav" />
+    <None Include="sound\gtrsound.wav" />
+    <None Include="sound\gtv6sound.wav" />
+    <None Include="sound\jagsound.wav" />
+    <None Include="sound\lambosound.wav" />
+    <None Include="sound\fiatsound.wav" />
     <Content Include="sound\lfasound.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

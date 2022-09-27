@@ -1,0 +1,36 @@
+﻿<Window x:Class="_581a1.V8s"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_581a1"
+        mc:Ignorable="d"
+        Title="V8s" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
+        <Label Content="V8s" HorizontalAlignment="Left" Margin="350,11,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label Content="Dodge Demon" HorizontalAlignment="Left" Margin="50,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 6162cc" HorizontalAlignment="Left" Margin="32,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Forced Induction: Super" HorizontalAlignment="Left" Margin="32,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 840 BHP" HorizontalAlignment="Left" Margin="32,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: 770 lb ft" HorizontalAlignment="Left" Margin="32,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Jaguar F-Type" HorizontalAlignment="Left" Margin="319,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 5000cc" HorizontalAlignment="Left" Margin="301,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Forced Induction: Super" HorizontalAlignment="Left" Margin="301,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 550 BHP" HorizontalAlignment="Left" Margin="301,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: 502 lb ft" HorizontalAlignment="Left" Margin="301,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Ferrari 458 Italia" HorizontalAlignment="Left" Margin="561,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 4497cc" HorizontalAlignment="Left" Margin="561,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Forced Induction: None" HorizontalAlignment="Left" Margin="561,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 562 BHP" HorizontalAlignment="Left" Margin="561,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: 398 lb ft" HorizontalAlignment="Left" Margin="561,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Back to Engines" HorizontalAlignment="Left" Margin="50,36,0,0" VerticalAlignment="Top" Width="118" Height="32" Background="Black" Foreground="White" BorderBrush="Black" Click="Button_Click"/>
+        <Image Margin="561,120,31.333,211.667" Source="458.png" Stretch="Fill"/>
+        <Image Margin="292,109,272.333,193.667" Source="jag.png" Stretch="Fill"/>
+        <Image Margin="31,120,541.333,188.667" Source="demon.png" Stretch="Fill"/>
+        <Button Click="Demon_Click" Content="Button" HorizontalAlignment="Left" Margin="31,109,0,0" VerticalAlignment="Top" Width="221" Height="123" Opacity="0"/>
+        <Button Click="Jag_Click" Content="Button" HorizontalAlignment="Left" Margin="300,104,0,0" VerticalAlignment="Top" Width="221" Height="123" Opacity="0"/>
+        <Button Click="Ferrari_Click" Content="Button" HorizontalAlignment="Left" Margin="561,104,0,0" VerticalAlignment="Top" Width="201" Height="123" Opacity="0"/>
+
+    </Grid>
+</Window>

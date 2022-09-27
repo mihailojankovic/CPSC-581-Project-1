@@ -19,8 +19,8 @@
         <Label Content="Straight 5" HorizontalAlignment="Left" Margin="437,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
         <Label Content="Straight 6" HorizontalAlignment="Left" Margin="626,198,0,0" VerticalAlignment="Top" Width="86" FontSize="18"/>
         <Button Content="" HorizontalAlignment="Left" Margin="239,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i4Button_Click" AutomationProperties.Name="i4button" Opacity="0"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="422,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i5Button_Click" AutomationProperties.Name="i5button"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="612,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i6Button_Click" AutomationProperties.Name="i6button"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="422,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i5Button_Click" AutomationProperties.Name="i5button" Opacity="0"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="612,113,0,0" VerticalAlignment="Top" Width="120" Background="#00DDDDDD" BorderBrush="#00707070" Height="119" Click="i6Button_Click" AutomationProperties.Name="i6button" Opacity="0"/>
         <Image Margin="60,237,603.333,72.667" Source="v6.png" Stretch="Fill"/>
         <Label Content="V6" HorizontalAlignment="Left" Margin="108,348,0,0" VerticalAlignment="Top" Width="36" FontSize="18"/>
         <Image Margin="239,256,448.333,72.667" Source="v8.png" Stretch="Fill"/>
@@ -29,10 +29,10 @@
         <Label Content="V10" HorizontalAlignment="Left" Margin="452,348,0,0" VerticalAlignment="Top" Width="44" FontSize="18"/>
         <Image Margin="595,256,50.333,72.667" Source="v12.png" Stretch="Fill"/>
         <Label Content="V12" HorizontalAlignment="Left" Margin="644,348,0,0" VerticalAlignment="Top" Width="44" FontSize="18"/>
-        <Button Content="" Margin="70,256,0,0" VerticalAlignment="Top" Width="105" Click="v6Button_Click" AutomationProperties.Name="v6button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
-        <Button Content="" Margin="238,256,0,0" VerticalAlignment="Top" Width="105" Click="v8Button_Click" AutomationProperties.Name="v8button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
-        <Button Content="" Margin="409,256,0,0" VerticalAlignment="Top" Width="139" Click="v10Button_Click" AutomationProperties.Name="v10button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
-        <Button Content="" Margin="612,256,0,0" VerticalAlignment="Top" Width="120" Click="v12Button_Click" AutomationProperties.Name="v12button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16"/>
+        <Button Content="" Margin="70,256,0,0" VerticalAlignment="Top" Width="105" Click="v6Button_Click" AutomationProperties.Name="v6button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16" Opacity="0"/>
+        <Button Content="" Margin="238,256,0,0" VerticalAlignment="Top" Width="105" Click="v8Button_Click" AutomationProperties.Name="v8button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16" Opacity="0"/>
+        <Button Content="" Margin="409,256,0,0" VerticalAlignment="Top" Width="139" Click="v10Button_Click" AutomationProperties.Name="v10button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16" Opacity="0"/>
+        <Button Content="" Margin="612,256,0,0" VerticalAlignment="Top" Width="120" Click="v12Button_Click" AutomationProperties.Name="v12button" Background="#00DDDDDD" Height="119" BorderBrush="#00707070" HorizontalAlignment="Left" FontSize="16" Opacity="0"/>
 
 
     </Grid>

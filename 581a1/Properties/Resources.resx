@@ -118,7 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="carrerasound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\carrerasound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="demonsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\demonsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="e30sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\e30sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f458sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\f458sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f812sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\f812sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fiatsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\fiatsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fiestastsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\fiestastsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gtrsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\gtrsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gtv6sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\gtv6sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jagsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\jagsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lambosound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\lambosound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lfasound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\sound\lfasound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paganisound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\paganisound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="r34sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\r34sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="r8sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\r8sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rs3sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\rs3sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\s1sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s2ksound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\s2ksound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saabsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sounds\saabsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stratossound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\stratossound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="suprasound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\suprasound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tvrsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\tvrsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wrxsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\wrxsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yarisgrsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sound\yarisgrsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

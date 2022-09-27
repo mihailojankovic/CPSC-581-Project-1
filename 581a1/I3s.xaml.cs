@@ -27,8 +27,27 @@ namespace _581a1
 
         private void Yaris_Click(object sender, RoutedEventArgs e)
         {
-            SoundPlayer lfa = new SoundPlayer(Properties.Resources.lfasound);
-            lfa.Play();
+            SoundPlayer yaris = new SoundPlayer(Properties.Resources.yarisgrsound);
+            yaris.Play();
+        }
+
+        private void Ford_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer ford = new SoundPlayer(Properties.Resources.fiestastsound);
+            ford.Play();
+        }
+
+        private void Saab_Click(object sender, RoutedEventArgs e)
+        {
+            SoundPlayer saab = new SoundPlayer(Properties.Resources.saabsound);
+            saab.Play();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Engines main = new Engines();
+            this.Close();
+            main.Show();
         }
     }
 }

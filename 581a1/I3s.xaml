@@ -8,11 +8,29 @@
         Title="I3s" Height="450" Width="800">
     <Grid>
         <Rectangle Fill="#FF0C0CD0" HorizontalAlignment="Left" Height="421" Stroke="Black" VerticalAlignment="Top" Width="793" Margin="0,0,0,-0.333"/>
-        <Label Content="Straight 3s" HorizontalAlignment="Left" Margin="274,35,0,0" VerticalAlignment="Top" FontSize="48"/>
-        <Image Margin="10,129,515.333,128.667" Source="yarisgr.png" Stretch="Fill"/>
-        <Label Content="Toyota Yaris GR" HorizontalAlignment="Left" Margin="52,292,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label Content="Displacement: 1618cc" HorizontalAlignment="Left" Margin="35,334,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button Content="Button" Click="Yaris_Click" HorizontalAlignment="Left" Margin="274,243,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Straight 3s" HorizontalAlignment="Left" Margin="278,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Image Margin="10,89,515.333,168.667" Source="yarisgr.png" Stretch="Fill"/>
+        <Label Content="Toyota Yaris GR" HorizontalAlignment="Left" Margin="50,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 1618cc" HorizontalAlignment="Left" Margin="32,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Button" Click="Yaris_Click" HorizontalAlignment="Left" Margin="32,99,0,0" VerticalAlignment="Top" Width="221" Height="133" Opacity="0"/>
+        <Button Content="Button" Click="Ford_Click" HorizontalAlignment="Left" Margin="278,95,0,0" VerticalAlignment="Top" Width="234" Height="142" Panel.ZIndex="1" Opacity="0"/>
+        <Button Content="Button" Click="Saab_Click" HorizontalAlignment="Left" Margin="544,99,0,0" VerticalAlignment="Top" Width="207" Panel.ZIndex="1" Height="128" Opacity="0"/>
+        <Image Margin="258,65,254.333,151.667" Source="fiestast.png" Stretch="Fill"/>
+        <Label Content="Forced Induction: Turbo" HorizontalAlignment="Left" Margin="32,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 261 BHP" HorizontalAlignment="Left" Margin="32,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: 266 lb ft" HorizontalAlignment="Left" Margin="32,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Ford Fiesta ST" HorizontalAlignment="Left" Margin="305,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 1496cc" HorizontalAlignment="Left" Margin="287,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Forced Induction: Turbo" HorizontalAlignment="Left" Margin="287,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 197 BHP" HorizontalAlignment="Left" Margin="287,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: 214 lb ft" HorizontalAlignment="Left" Margin="287,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Image Margin="544,83,28.333,183.667" Source="saab.png" Stretch="Fill"/>
+        <Label Content="Saab 93 (Old)" HorizontalAlignment="Left" Margin="579,232,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Displacement: 748cc" HorizontalAlignment="Left" Margin="561,269,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Forced Induction: None" HorizontalAlignment="Left" Margin="561,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horsepower: 33 BHP" HorizontalAlignment="Left" Margin="561,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Torque: ? lb ft" HorizontalAlignment="Left" Margin="561,379,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Back to Engines" HorizontalAlignment="Left" Margin="50,36,0,0" VerticalAlignment="Top" Width="118" Height="32" Background="Black" Foreground="White" BorderBrush="Black" Click="Button_Click"/>
 
     </Grid>
 </Window>
