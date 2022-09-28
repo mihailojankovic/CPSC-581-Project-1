@@ -27,9 +27,9 @@ namespace _581a1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Engines main = new Engines();
+            Engines engines = new Engines();
             this.Close();
-            main.Show();
+            engines.Show();
         }
 
         private void Demon_Click(object sender, RoutedEventArgs e)

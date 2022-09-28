@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Media;
+using System.Windows.Navigation;
 
 namespace _581a1
 {
@@ -27,9 +28,9 @@ namespace _581a1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Engines main = new Engines();
+            Engines engines = new Engines();
             this.Close();
-            main.Show();
+            engines.Show();
         }
 
         private void GTR_Click(object sender, RoutedEventArgs e)
